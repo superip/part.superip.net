@@ -1,0 +1,33 @@
+/*qa.css*/
+#bo_list{ display:block; width:100%; margin:20px auto;}
+#bo_btn_top.faq_bo_btn_top #bo_list_total{width: inherit;}
+.btn_bo_user.faq_btn_bo_user{margin: 35px 0 20px 0;}
+.bo_fx.faq_bo_fx{display: block; width: inherit;}
+.bo_fx.faq_bo_fx .btn_b02.faq_submit{display: none;}
+.sch_btn .fa{display: none;}
+.qnaIco{color: #333;}
+.qnaIco2{border-color: #c80e21; color: #c80e21;}
+.qnaIco3{color: #747474;}
+#bo_list a.btn_admin, #bo_list a.btn_b01 {
+    display: none;
+}
+a.btn_b02, .btn_b02 {
+    height: 40px;
+    width:130px;
+}
+.tbl_wrap table {
+    background:#fcfcfc;
+    border-bottom:0;
+}
+@media screen and (max-width:767px){
+    #bo_list.faq_bo_list .td_num2{width: 100px;}
+    #bo_list.faq_bo_list .tbl_head01 thead .th_name{display: none;}
+    #bo_list.faq_bo_list .td_name{display: none;}
+}
+@media screen and (max-width:480px){
+    #bo_list.faq_bo_list .td_num2{width: 80px;}
+    #bo_list.faq_bo_list .tbl_head01 thead th{font-size: 14px;}
+    #bo_list.faq_bo_list .tbl_head01 thead .th_date{display: none;}
+    #bo_list.faq_bo_list .td_datetime{display: none;}
+    #bo_list.faq_bo_list .tbl_head01 .faq_td_subject a{width: 100%;}
+}

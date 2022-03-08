@@ -1,0 +1,83 @@
+/* footerStyle.css */
+
+#ft{background: #333; color: #888;} 
+#ft a, #ft_copy{color: #888;}
+#ft_wr{width: 1200px; padding: 50px 20px; overflow: hidden;}
+#ft_sns{width: 65%;}
+#ft_sns ul{float: right; overflow: hidden;}
+#ft_sns ul li{float: left; width: 40px; height: 40px; text-indent: -9999px; overflow: hidden; margin-left: 15px;}
+#ft_sns ul li a{width: 100%; height: 100%; background: url(../../img/common/ft_sns1.png); background-size: 100% auto; }
+#ft_sns ul li.ft_sns2 a{background-image: url(../../img/common/ft_sns2.png);}
+#ft_sns ul li.ft_sns3 a{background-image: url(../../img/common/ft_sns3.png);}
+#ft_sns ul li.ft_sns4 a{background-image: url(../../img/common/ft_sns4.png);}
+#ft_contact{width: 40%; text-align: right; margin-top: 10px;}
+#ft_contact strong{font-size: 36px; font-weight: 600; line-height: 50px;}
+#ft_link{width: 30%; height: 20px; margin-top: -40px; margin-bottom: 30px;}
+#ft_link > a{float: left; height: 100%; line-height: 20px; font-size: 14px;}
+#ft_link > a::after{content: ""; display: block; width: 1px; height: 15px; background: #888; margin-left: 10px; float: right; margin-right: 10px; margin-top: 3px;}
+#ft_link > a.ft_link3::after{display: none;}
+#ft_company{width: 60%; margin-bottom: 30px;}
+#ft_company ul{overflow: hidden;}
+#ft_company li{float: left; line-height: 20px; font-size: 14px;}
+#ft_company li::after{content: ""; display: block; width: 1px; height: 15px; background: #888; margin-left: 10px; float: right; margin-right: 10px; margin-top: 3px;}
+#ft_company li.ft_company3::after, #ft_company li.ft_company6::after{display: none;}
+#ft_company li.ft_company6 a{display: inline-block;}
+#ft_copy{width: 70%; font-size: 14px; margin-top: -25px;}
+@media screen and (min-width:1200px){
+    #ft_sns{float: right;}
+    #ft_sns ul{float: right;}
+    #ft_sns ul li{float: left;}
+    #ft_contact{float: right;}
+    #ft_link{float: left;}
+    #ft_company{float: left;}
+    #ft_copy{float: left;}
+}
+@media screen and (max-width:1199px){
+    #ft{width: 100%;}
+    #ft_wr{width: 100%; padding: 40px 0;} 
+    #ft_sns,
+    #ft_contact,
+    #ft_link,
+    #ft_company,
+    #ft_copy{overflow: hidden; width: 100%;}  
+    #ft_sns ul{float: none; width: 264px; margin: 0 auto;}
+    #ft_sns ul li{margin: 0; width: 25%;}
+    #ft_sns ul li a{background-size: 40px auto; background-position: center; background-repeat: no-repeat;}
+    #ft_contact{margin-top: 20px; text-align: center; padding-bottom: 40px; border-bottom: 1px solid #888;}
+    #ft_link{text-align: center; width: 313px; margin: 20px auto 0;}
+    #ft_company{ text-align: center; margin: 30px auto;}
+    #ft_copy{margin-top: 0; text-align: center;}
+    #ft_company{width: 100%;}
+    #ft_company li{float: none; display: inline-block;}  
+    #ft_company li.ft_company2::after, #ft_company li.ft_company3::after{display: none;} 
+    #ft_copy span{display: block;}
+    #ft_company li.ft_company3{display: block;}
+    #ft_contact strong{font-size: 36px; line-height: 50px;}
+    #ft_contact p{font-size:14px;}
+}
+@media screen and (max-width:480px){
+    #ft_company{padding: 0 20px;}
+    #ft_company li::after{display: none;} 
+    #ft_company li.ft_company6{display: block;}
+    #ft_company li.ft_company1::after, #ft_company li.ft_company4::after{display: block;}
+    #ft_link{width: 274px; width:294px !ie; }
+    #ft_link > a{font-size: 12px;}
+    #ft_company li{font-size: 12px;}
+    #ft_copy{font-size:12px;}
+    #ft_contact{margin-bottom: 30px; padding: 0 20px 30px;}
+    #ft_contact strong{font-size: 30px; line-height: 40px;}
+    #ft_contact p{font-size:12px; line-height: 1.5;}
+}
+@media screen and (max-width: 430px){
+    #ft_company li.ft_company4{display: block;}
+    #ft_company li.ft_company4::after{display: none;}
+}
+
+
+
+
+
+
+
+
+

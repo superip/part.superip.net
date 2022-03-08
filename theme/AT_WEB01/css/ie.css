@@ -1,0 +1,12 @@
+/*ie.css*/
+
+#bo_w .bo_w_flie .frm_file{width: 100%;}
+@media screen and (max-width:1199px){
+    #ft_link{width: 337px;}
+}
+@media screen and (max-width:480px){
+    #ft_link{width:294px; }
+}
+
+
+

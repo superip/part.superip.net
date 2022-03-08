@@ -1,0 +1,116 @@
+1. 관리자  > 게시판그룹관리 > 게시판 그룹 추가 (at01_gall , at01_table)
+
+2. 게시판 관리 >게시판 추가
+그룹 at01_table (at01_FAQ  [스킨: (테마) faq] , at01_QA  [스킨: (테마) qa] ,at01_ing_project  [스킨: (테마) basic_table]  ,at01_news [스킨: (테마) basic_table])
+그룹 at01_gall  (at01_gallery  [스킨: (테마) gallery_table] , at01_gall_list  [스킨: (테마) gall_list] ,at01_webzine [스킨: (테마) webzine])
+
+3.  게시판 관리 > 해당 게시판 수정> 디자인/양식 > 상단 내용 > HTML 탭 클릭후 아래내용추가
+
+
+3.1  at01_gallery
+<div class="ing_bnr_Wrap">
+    <div class="bnrimg product_banner"><br style="clear:both;"><br style="clear:both;"></div>
+ <div class="bnrtxtwrap">
+    <h3 class="wow fadeInDown">PRODUCT</h3>
+     <div class="bnrline wow fadeInDown" data-wow-delay="0.1s"></div>
+    <p class="wow fadeInDown" data-wow-delay="0.2s">골뱅이스토어는 최선의 서비스를 제공합니다.</p>
+    </div>
+
+</div>
+<div class="mdlTxt">
+    <h2 class="wow flipInX" data-wow-duration="2s">갤러리형</h2>
+</div>
+
+3.2 at01_gall_list
+
+<div class="ing_bnr_Wrap">
+    <div class="bnrimg product_banner"><br style="clear:both;"><br style="clear:both;"></div>
+ <div class="bnrtxtwrap">
+    <h3 class="wow fadeInDown">PRODUCT</h3>
+     <div class="bnrline wow fadeInDown" data-wow-delay="0.1s"></div>
+    <p class="wow fadeInDown" data-wow-delay="0.2s">골뱅이스토어는 최선의 서비스를 제공합니다.</p>
+    </div>
+
+</div>
+<div class="mdlTxt">
+    <h2 class="wow flipInX" data-wow-duration="2s">리스트형</h2>
+</div>
+
+
+3.3 at01_webzine
+
+<div class="ing_bnr_Wrap">
+    <div class="bnrimg product_banner"><br style="clear:both;"><br style="clear:both;"></div>
+ <div class="bnrtxtwrap">
+    <h3 class="wow fadeInDown">PRODUCT</h3>
+     <div class="bnrline wow fadeInDown" data-wow-delay="0.1s"></div>
+    <p class="wow fadeInDown" data-wow-delay="0.2s">골뱅이스토어는 최선의 서비스를 제공합니다.</p>
+    </div>
+
+</div>
+<div class="mdlTxt">
+    <h2 class="wow flipInX" data-wow-duration="2s">웹진형</h2>
+</div>
+
+
+3.4 at01_FAQ 
+
+<div class="ing_bnr_Wrap">
+    <div class="bnrimg customer_banner"><br style="clear:both;"></div>
+    <div class="bnrtxtwrap">
+        <h3 class="wow fadeInDown">CUSTOMER</h3>
+        <div class="bnrline wow fadeInDown" data-wow-delay="0.1s"></div>
+        <p class="wow fadeInDown" data-wow-delay="0.2s">골뱅이스토어는 최선의 서비스를 제공합니다.</p>
+    </div>
+</div>
+<div class="mdlTxt">
+       <h2 class="wow flipInX" data-wow-duration="2s">자주묻는 질문</h2>
+       <p class="wow flipInX" data-wow-delay="0.3s">골뱅이스토어에게 문의하세요. 친절하게 답해드리겠습니다.</p>
+</div>  
+
+
+3.5 at01_ing_project
+
+<div class="ing_bnr_Wrap">
+    <div class="bnrimg customer_banner"><br style="clear:both;"><br style="clear:both;"></div>
+ <div class="bnrtxtwrap">
+    <h3 class="wow fadeInDown">CUSTOMER</h3>
+     <div class="bnrline wow fadeInDown" data-wow-delay="0.1s"></div>
+    <p class="wow fadeInDown" data-wow-delay="0.2s">골뱅이스토어는 최선의 서비스를 제공합니다.</p>
+    </div>
+
+</div>
+<div class="mdlTxt">
+    <h2 class="wow flipInX" data-wow-duration="2s">ING PROJECT</h2>
+</div>
+
+
+3.6  at01_news
+<div class="ing_bnr_Wrap">
+    <div class="bnrimg customer_banner"><br style="clear:both;"><br style="clear:both;"></div>
+ <div class="bnrtxtwrap">
+    <h3 class="wow fadeInDown">CUSTOMER</h3>
+     <div class="bnrline wow fadeInDown" data-wow-delay="0.1s"></div>
+    <p class="wow fadeInDown" data-wow-delay="0.2s">골뱅이스토어는 최선의 서비스를 제공합니다.</p>
+    </div>
+
+</div>
+<div class="mdlTxt">
+    <h2 class="wow flipInX" data-wow-duration="2s">NEWS</h2>
+</div>
+
+
+3.7  at01_QA
+<div class="ing_bnr_Wrap">
+    <div class="bnrimg customer_banner"><br style="clear:both;"></div>
+    <div class="bnrtxtwrap">
+        <h3 class="wow fadeInDown">CUSTOMER</h3>
+        <div class="bnrline wow fadeInDown" data-wow-delay="0.1s"></div>
+        <p class="wow fadeInDown" data-wow-delay="0.2s">골뱅이스토어는 최선의 서비스를 제공합니다.</p>
+    </div>
+</div>
+<div class="mdlTxt">
+       <h2 class="wow flipInX" data-wow-duration="2s">질문과 답변</h2>
+</div>  
+
+

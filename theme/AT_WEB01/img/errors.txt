@@ -1,0 +1,1 @@
+[Wed Apr 03 2019 14:09:52 GMT+0900 (대한민국 표준시)] Layer "메일 : mincompany@atsign.co.kr    |    사업자등록번호 : 417-09-82969    ": Expected end of input but "|" found.

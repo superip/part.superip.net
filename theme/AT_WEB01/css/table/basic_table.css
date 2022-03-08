@@ -1,0 +1,42 @@
+/*basic_table.css*/
+@font-face {
+    font-family: 'GongGothicLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10@1.0/GongGothicLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+* { font-family: 'GongGothicLight'; }
+#bo_list .bo_tit .title_icon{display: none;}
+#bo_list .fa{display: none;}
+#bo_list_total{background: transparent;}
+#bo_list .bo_tit .title_icon{display: none;}
+.sv_member{text-align: center;}
+#bo_list_total{margin: 40px 0;}
+.tbl_wrap table{border-top: 1px solid #666; border-right: none; border-left: none; width:100%; margin:0 auto;}
+#bo_list .td_datetime{font-style: normal;}
+#bo_list .td_num{display: none;}
+.td_subject{padding-left: 30px!important;}
+.tbl_head01 thead th{padding: 15px 0;}
+#bo_list_total{overflow: hidden;width: 100%; line-height: 30px;}
+#bo_list_total span{float: left; font-size: 14px; color: #aaa;}
+#new1{width: 90px;height: 30px;border: 1px solid #ddd; float: right; font-size: 14px; font-weight: 500; line-height: 30px;padding-left: 10px; display: none;}
+#bo_list tbody tr:hover{border-left: none;}
+.btn_bo_user>li:nth-child(4){display:block;}
+#bo_list .bo_tit .title{width:auto; margin:0 1%; float:left; overflow: hidden; text-overflow: ellipsis;white-space: normal; word-wrap:break-word; display: -webkit-box; -webkit-box-orient: vertical; line-height: 1.5; height: 1.5em; -webkit-line-clamp: 1;}
+@media screen and (max-width:570px){
+    .td_subject{padding-left: 15px!important;}
+    #bo_list .tbl_head01 thead .notice_wr{display: none;}
+    #bo_list .td_name.notice_td_name{display: none;}
+}
+@media screen and (max-width:480px){
+    #bo_list .tbl_head01 a{width: 90%;}
+    #bo_list_total{margin: 20px 0;}
+    #bo_list_total span{float: left; font-size: 12px;}
+    .tbl_head01 thead th{font-size: 14px;}
+}
+@media screen and (max-width:400px){
+    .td_subject{font-size: 13px;}
+    .sv_member{font-size: 12px;}
+    .td_num2{font-size: 12px;}
+    .td_datetime{font-size: 12px;}
+}

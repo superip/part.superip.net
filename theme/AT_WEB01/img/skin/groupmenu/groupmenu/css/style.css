@@ -1,0 +1,17 @@
+@charset "utf-8";
+
+#groupmenu{width: 100%; max-width: 1200px; margin: 0 auto; border-top: 1px solid #cfcfcf; border-left: 1px solid #cfcfcf;}
+#groupmenu .table{width: 100%; height: 100%;}
+#groupmenu .table .tbody{width: 100%; height: 100%;}
+.group_name{display: none;}
+.group_board{float: left; width: 50%;}
+.group_board .group_list{display: block; width: 100%;}
+#groupmenu #nav1{width: 100%;}
+#groupmenu #nav1 ul{padding:0; width: 100%;}
+#groupmenu #nav1 ul li{width: 100%;}
+#groupmenu #nav1 ul li a{width: 100%; line-height: 50px; text-align: center; color: #333;}
+
+
+#groupmenu #nav1 li{border-bottom: 1px solid #cfcfcf; border-right: 1px solid #cfcfcf;}
+#groupmenu #nav1 li.on{border-bottom: 2px solid #c80e21;}
+#groupmenu #nav1 li.on a{color: #c80e21; font-weight: bold;}

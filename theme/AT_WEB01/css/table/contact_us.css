@@ -1,0 +1,19 @@
+/* contact_us */
+.contact_us{width: 100%;}
+.contact_us input:focus{outline: 0 none;}
+.contact_us input[type=text], input[type=password], textarea{outline: none;}
+.contact_us button:focus{outline: 0 none;}
+.contact_us input.name:focus{outline: 0 none;}
+.contact_us .outline{float: left; display: block; margin-bottom: 25px;width: 48%; height: 60px; -webkit-box-sizing: border-box; box-sizing: border-box; margin-left: 1%; overflow: hidden;}
+.contact_us .outline.right{float: right; margin-left: 0;}
+.contact_us .outline input{display: block; width: 100%; height: 100%;}
+.contact_us .outline.message{width: 100%; height: 300px;}
+.contact_us .outline.message input{padding-bottom: 240px;}
+.inputbox, .focusbox {float:left; margin:0; height:auto; font-size:14px; color:#666;}
+.inputbox {padding:4px 1px 3px 20px; border: 1px solid #ddd;}
+.focusbox {padding:3px 0 2px 19px; border:2px solid #c71526;}
+#contact_submit{width: 300px; height: 60px; background: #c71526; margin: 0 auto; display: block; color: #fff; }
+@media screen and (max-width: 480px){
+    .mdlTxt > p{margin-top: 10px; font-size: 13px;}
+}
+

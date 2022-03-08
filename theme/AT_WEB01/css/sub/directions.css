@@ -1,0 +1,53 @@
+/* directions.css */
+.directions{width: 100%; padding: 0 0 130px;}
+.map_area{margin-top: 50px; width: 100%; height: auto; overflow: hidden;}
+.map_desc{margin-top: 80px; width: 100%;}
+.map_desc_box{width: 100%;}
+.map_title{height: 60px; border-bottom: 2px solid #666;}
+.map_title .map_icon1{float: left; display: inline-block; margin-right: 10px; width: 30px; height: 100%; background: url(../../img/company/directions_icon01.png); background-size: 20px 20px; background-repeat: no-repeat; background-position: center;}
+.map_title h3{float: left; line-height: 60px; color: #333; font-size: 20px;}
+.map_list{margin-bottom: 65px; width: 100%;}
+.map_item{float: left; width: 100%; border-bottom: 1px solid #999;}
+.item_desc{line-height: 60px; color: #666; font-size: 16px;}
+.map_item::before{display: inline-block; float: left; margin-right: 26px; content: ""; width: 4px; height: 4px; background: #c71526; border-radius: 50%; margin-top: 28px;}
+.map_2list{}
+.map_2item{float: left; margin-right: 32px; padding: 15px 0 15px;}
+.map_2item .bus_line{display: inline-block; margin-right: 10px; width: 45px; height: 30px; background: #3caa3a; color: #fff; text-align: center; line-height: 30px; border-radius: 5px}
+.map_2item .bus_line.blue{background: #358fd4;}
+.map_2item .bus_number{display: inline-block; color: #666; font-size: 16px; line-height: 30px;}
+.map_item.bus_info .item_desc{margin-left: 30px;}
+@media screen and (max-width:1199px){
+    .directions{padding: 0 0 90px;}
+    .map_area{margin-top: 20px; height: 300px;}
+    .map_desc{margin-top: 60px;}
+    .map_title{height: 50px;}
+    .map_title .map_icon1{width: 25px;}
+    .map_title h3{line-height: 50px; font-size: 18px;}
+    .map_list{margin-bottom: 45px;}
+    .map_item{padding: 20px 0;}
+    .item_desc{float: left; margin-left: 20px; width: 90%; line-height: 20px; font-size: 14px;}
+    .map_item::before{margin-top: 8px; margin-right: 0;}
+    .map_2list{float: left; margin-left: 20px; width: 90%;}
+    .map_2item{margin-right: 25px; padding: 0 0 20px;}
+    .map_2item .bus_line{width: 38px; height: 28px; line-height: 28px; font-size: 14px;}
+    .map_2item .bus_number{font-size: 14px; line-height: 28px;}
+    .map_item.bus_info .item_desc{margin-left: 24px;}
+    .map_item.bus_info::before{margin-top: 10px;}
+}
+@media screen and (max-width: 480px){
+    .directions{padding: 0 0 80px;}
+    .map_area{margin-top: 10px; height: 250px;}
+    .map_desc{margin-top: 50px;}
+    .map_title{height: 45px;}
+    .map_title .map_icon1{width: 20px; background-size: 18px 18px;}
+    .map_title h3{line-height: 45px; font-size: 16px;}
+    .map_list{margin-bottom: 30px;}
+    .item_desc{width: 90%; line-height: 17px; font-size: 13px;}
+    .map_item::before{margin-top: 6px;}
+    .map_2list{width: 90%;}
+    .map_2item{margin-right: 20px;}
+    .map_2item .bus_line{width: 35px; height: 25px; line-height: 25px; font-size: 13px;}
+    .map_2item .bus_number{font-size: 13px; line-height: 25px;}
+    .map_item.bus_info .item_desc{margin-left: 30px;}
+    .map_item.bus_info::before{margin-top: 10px;}
+}

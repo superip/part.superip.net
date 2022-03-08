@@ -1,0 +1,27 @@
+/*ie9.css*/
+#mb-open-menu{background: rgba(255,255,255,0);}
+.webzine_table#bo_list .subject_box{height: 193px;}
+@media screen and (max-width:600px){
+    .sub1-3{float: left; height: auto; background-position: center; background-size: cover;}
+    .sub1-3 .con3_sect1{display: block;}
+    .sub1-3 .sub_intro.swiper-container{display: none;}
+    .sub1-3 .con3_sect1 .line{left: 34px; top: 8px;}
+    .sub1-3 .btnWrap{display: none;}
+    .sub1-3 article{padding: 0 20px; width: 100%; height: auto;}
+    .sub1-3 .con3_sect1 img{margin: 0 auto; max-width: 400px;}
+    .sub1-3 .con3_sect1 .year{font-size: 25px;}
+    .sub1-3 .con3_sect1 .desc .date{margin-right: 10px; font-size: 13px;}
+    .sub1-3 .con3_sect1 .desc p{width: 60%; font-size: 13px;}
+}
+@media screen and (max-width:480px){
+    .sub1-3 .con3_sect1 .year{font-size: 20px;}
+}
+@media screen and (min-width:768px)and (max-width:1199px){
+    .coreComWrap .detail ul li{height:350px;}
+}
+@media screen and (max-width:767px){
+    #bo_list.webzine_table .tbl_head01 .td_chk{top: inherit; margin-left: 20px; margin-top: 60px;}
+}
+@media screen and (max-width:480px){
+    #bo_list.webzine_table .tbl_head01 .td_chk{top: inherit; margin-left: 20px; margin-top: 35px;}
+}
